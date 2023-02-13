@@ -29,9 +29,3 @@
     font-family: 'noto-sans-Thin';
     src: url("../font/NotoSansKR-Thin.otf");
 }
-
-/* @font-face{
-    font-family: 'noto-sans';
-    font-weight: 500;
-    src: url("../font/NotoSansKR-Black.otf"), url("../font/NotoSansKR-Bold.otf"), url("../font/NotoSansKR-Light.otf"), url("../font/NotoSansKR-Medium.otf"), url("../font/NotoSansKR-Regular.otf"), url("../font/NotoSansKR-Thin.otf");
-} */

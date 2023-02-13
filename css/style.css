@@ -4,26 +4,36 @@
 /* 전체 */
 body{font-family: 'noto-sans-Regular';}
 
-/* wrap */
-#wrap{width:1200px; padding:70px 0 120px 0; margin:0 auto; box-sizing:border-box;}
+/* wrapMain */
+#wrapMain{width:1200px; padding:70px 0 0 0; margin:0 auto; box-sizing:border-box;}
+
+#wrapSub{width:1200px; padding:70px 0 0 0; margin:0 auto; box-sizing:border-box;}
 
 /* header */
-#header{position:fixed; top:0; left:50%; transform:translate(-50%, 0); display:flex; justify-content:space-between; align-items:center; width:1200px; height:70px; padding:0 100px; box-sizing:border-box; background-color:#aaa;}
+#header{position:fixed; top:0; left:50%; transform:translate(-50%, 0); display:flex; justify-content:space-between; align-items:center; width:1200px; height:70px; padding:0 100px; box-sizing:border-box; background-color:#f5f5f5;}
 
-#header .logo{color:red; text-decoration:none;}
+#header .logo{font-size:18px; font-weight:600; color:#000; text-decoration:none;}
 
 #header .menu{display:flex; align-items:center;}
 #header .menu > li{margin:0 10px;}
 #header .menu > li > a{color:#000; text-decoration:none;}
 
 /* container */
-#container{width:100%; height:570px; padding:60px 60px 0; background-color:#ddd; box-sizing:border-box;}
+#wrapMain #container, #wrapSub #container{width:100%; box-sizing:border-box;}
 
-#container .mainImg{width:800px; height:400px; margin:0 auto; background-color:aliceblue;}
+/* container - main */
+#wrapMain #container .mainImg{margin:0 auto;}
+#wrapMain #container .mainImg .mainBanner{width:100%;}
 
+/* container - sub */
+#wrapSub #container{padding:60px;}
+#wrapSub #container .title{font-size:20px;}
+#wrapSub #container .text{display:block; margin-top:30px; line-height:32px;}
+#wrapSub #container .text .indent{text-indent:40px;}
 
 /* footer */
-#footer{position:fixed; bottom:0; left:50%; transform:translate(-50%, 0); width:1200px; height:40px; padding:20px 0; background-color:#f5f5f5; font-size:14px; text-align:center;}
+/* #footer{position:fixed; bottom:0; left:50%; transform:translate(-50%, 0); width:1200px; height:40px; padding:20px 0; background-color:#f5f5f5; font-size:14px; text-align:center;} */
+#footer{width:1200px; height:40px; padding:20px 0; background-color:#f5f5f5; font-size:14px; text-align:center;}
 
 #footer .address{font-style:normal;}
 #footer .address > a{color:#000; text-decoration:none;}
