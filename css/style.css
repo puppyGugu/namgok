@@ -1,6 +1,9 @@
 /* 초기화 */
 *{margin:0; padding:0; list-style:none;}
 
+/* 전체 */
+body{font-family: 'noto-sans-Regular';}
+
 /* wrap */
 #wrap{width:1200px; padding:70px 0 120px 0; margin:0 auto; box-sizing:border-box;}
 
